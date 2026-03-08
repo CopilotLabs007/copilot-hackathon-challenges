@@ -9,7 +9,7 @@
 
 # AI Classics Web App Challenge
 <a href="#">
-    <img src="../../Images/AI-classics.jpeg"  style="width: 830px" />
+    <img src="../../Images/AI-classics.jpeg"  style="width: 530px;height: 300px;" /><img src="../../Images/chess-with-robot.png"  style="width: 450px;height: 300px;" />   
 </a>
 
 ## Overview
