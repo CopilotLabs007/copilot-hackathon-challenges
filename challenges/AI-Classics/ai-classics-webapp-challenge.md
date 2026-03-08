@@ -8,6 +8,9 @@
 - **Topic 6: Custom Agents:** Documentation Specialist Agent – Responsible for creating and updating README files or other project documentation, ensuring consistent structure and formatting.
 
 # AI Classics Web App Challenge
+<a href="#">
+    <img src="../../Images/AI-classics.jpeg"  style="width: 830px" />
+</a>
 
 ## Overview
 Develop a web application that showcases the top 10 most famous movies, influential ideas, or classic games (such as chess) related to Artificial Intelligence. The app should provide engaging content, visuals, and brief descriptions for each entry, highlighting their impact on AI history and culture.
