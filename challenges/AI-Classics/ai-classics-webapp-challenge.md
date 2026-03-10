@@ -1,11 +1,3 @@
-**Topics to be used:**
-
-- **Topic 1: Plan:** Use Plan Mode to create a better strategy before coding. Review and finalize a high-level plan, and start implementation only after approval. 
-- **Topic 2: Code:** Transition to Agent Mode. Once the plan is approved, implement the code according to the approved plan.
-- **Topic 3: Test:** Test the application to ensure all features work as expected.
-- **Topic 4: Generate Chat Instructions:** Create a rulebook of custom Copilot instructions to ensure consistency, enforce best practices and coding standards, and minimize AI hallucinations in future challenges.
-- **Topic 5: Prompt Files:** Create targeted, reusable prompts for specific activities like code generation or conducting code reviews.
-- **Topic 6: Custom Agents:** Documentation Specialist Agent – Responsible for creating and updating README files or other project documentation, ensuring consistent structure and formatting.
 
 # AI Classics Web App Challenge
 <a href="#">
@@ -15,78 +7,82 @@
 ## Overview
 Develop a web application that showcases the top 10 most famous movies, influential ideas, or classic games (such as chess) related to Artificial Intelligence. The app should provide engaging content, visuals, and brief descriptions for each entry, highlighting their impact on AI history and culture.
 
----
-
 ## Challenge Goals
-- Build a modern, responsive web app using any stack or language, including:
     - Frontend frameworks: React, Vue, Angular, Svelte, plain HTML/CSS/JS
     - Python (Flask, Django, FastAPI)
     - Java (Spring Boot, Jakarta EE)
     - C# (ASP.NET Core, Blazor)
     - Ruby (Rails)
-    - PHP (Laravel, Symfony)
-    - Go (Gin, Echo)
-    - Any other web technology you prefer
-- List and describe 10 iconic AI-related movies, ideas, or games
-- Include images/posters/screenshots for each entry
-- Provide a short summary and why each is significant to AI
-- Optionally, allow users to filter by category (movies, ideas, games)
-- Bonus: Add links to trailers, articles, or playable demos
 
----
-
-## Example Entries
-- Movies: "2001: A Space Odyssey", "The Matrix", "Ex Machina", "Her", "Blade Runner"
-- Ideas: Turing Test, Neural Networks, Deep Learning, Reinforcement Learning, Expert Systems
-- Games: Chess, Go, Jeopardy! (IBM Watson), AlphaGo, Atari Games
-
----
-
-## Specifications
-1. Use a clean, user-friendly UI
-2. Display entries in a grid or list format
-3. Each entry should have:
-    - Title
-    - Image
-    - Short description
-    - Category (movie, idea, game)
-    - Optional: Link to more info
-4. Responsive design for desktop and mobile
-5. Document your code and design choices
-
----
-
-## High-Level Tasks
-1. Plan the app structure and UI
-2. Gather data for the top 10 entries
-3. Build the web app and display the entries
-4. Add filtering and links (optional)
-5. Test and document the app
-
----
-
-## Tips
-- Use Copilot to generate code, improve UI, and add comments
-- Leverage open APIs or Wikipedia for images and info
-- Keep the code modular and maintainable
-
----
-
-## Example Structure
-```
-ai-classics/
-    public/
-        images/
-    src/
-        App.js
-        data.js
-        components/
-            MovieCard.js
-            Filter.js
-    README.md
-```
-
----
 
 ## Summary
 This challenge will help you explore AI's cultural impact through movies, ideas, and games, while building a polished web app. Document your process and share your learnings!
+
+
+# Workshop Labs
+
+
+### Lab 0: Ask Mode (3 Minutes)
+**Objective:** Clarify requirements, resolve uncertainties, and spark ideas.
+- Pose questions about AI movies, ideas, or games
+- Seek clarification on coding concepts or UI/UX design
+- Request feedback or explore alternative approaches
+**Checkpoint:** Requirements clarified, uncertainties resolved, ideas sparked.
+
+### Exercise 0.1: Ask Questions
+List any uncertainties, blockers, or ideas you want to explore. Use Ask Mode to resolve them before planning.
+
+✅ **Lab 0 Checkpoint**
+You should now have:
+- Clarified requirements and resolved uncertainties
+- Sparked ideas for your project
+---
+
+### Lab 1: Plan Mode (5 Minutes)
+**Objective:** Create a clear strategy before coding.
+- Review challenge requirements and goals
+- Draft your app structure, UI layout, and data sources
+- Identify risks and questions
+- Document your plan (e.g., PLAN.md)
+**Checkpoint:** Actionable plan documented, risks identified.
+---
+
+### Lab 2: Copilot Instructions (5 Minutes)
+**Objective:** Customize Copilot’s behavior using instructions files.
+- View or create `.github/copilot-instructions.md`
+- Add project conventions, naming, and personality
+- Optionally, auto-generate instructions via VS Code
+- Add custom preferences and fun AI-themed comments
+- Test if Copilot follows your instructions
+**Checkpoint:** Copilot instructions created and tested.
+---
+
+### Lab 3: Agent Mode (10-15 Minutes)
+**Objective:** Use Copilot Agent Mode to fix bugs and add features across multiple files.
+- Identify bugs and missing features
+- Use Agent Mode to fix Bug 2 (better error messages)
+- Add a new feature (e.g., filtering, links, charts)
+- Review and test Copilot’s changes
+**Checkpoint:** Bugs fixed, features added, changes reviewed.
+---
+
+### Lab 4: Prompt Files (5-10 Minutes)
+**Objective:** Create reusable prompt files for consistent workflows.
+- Understand existing `.prompt.md` files
+- Create prompt files for tests, reviews, documentation, refactoring
+- Create a documentation prompt (e.g., `documentation.prompt.md`)
+- Use prompt files to guide Copilot
+**Checkpoint:** Prompt files created and used for repeatable workflows.
+---
+
+### Lab 5: Custom Agents (15 Minutes)
+**Objective:** Create specialized AI agents for specific tasks.
+- Review `.agent.md` files in `.github/agents/`
+- Understand and/or create custom agents (e.g., “AI Classics Expert”)
+- Use specialized agents for domain-specific tasks
+**Checkpoint:** Custom agents understood and used.
+---
+
+## Summary
+This challenge will help you explore AI’s cultural impact, build a polished web app, and master Copilot features for productivity and fun. Document your process and share your learnings!
+
